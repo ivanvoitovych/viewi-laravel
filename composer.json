@@ -1,5 +1,5 @@
 {
-    "name": "ivan/viewi-laravel",
+    "name": "viewi-lib/viewi-laravel",
     "description": "Viewi adapter for Laravel",
     "require": {
         "viewi/viewi": "~0.8",
