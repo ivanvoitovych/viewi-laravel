@@ -1,0 +1,26 @@
+{
+    "name": "ivan/viewi-laravel",
+    "description": "Viewi adapter for Laravel",
+    "require": {
+        "viewi/viewi": "~0.8",
+        "laravel/framework": "^9.37"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViewiLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Voitovych",
+            "email": "col606v@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ViewiLaravel\\Providers\\ViewiServiceProvider"
+            ]
+        }
+    }
+}
