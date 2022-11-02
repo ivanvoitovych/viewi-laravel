@@ -1,6 +1,4 @@
-# Viewi adapter for Laravel
-
-## [Viewi](https://viewi.net)
+# [Viewi](https://viewi.net) adapter for Laravel
 
 ## Install
 
@@ -12,23 +10,13 @@ Assuming you have your Laravel application. If not, please create one.
 
 ### Create Viewi application
 
-`vendor/bin/viewi new -e`
+`vendor/bin/viewi new -e -a`
 
 OR
 
-`vendor/bin/viewi new`
+`vendor/bin/viewi new -a`
 
 more here: [Installation Viewi](https://viewi.net/docs/installation)
-
-### Remove viewi standalone app code from public/index.php
-
-This code should be removed
-
-```php
-// Viewi application here
-include __DIR__ . '/../viewi-app/viewi.php';
-Viewi\App::handle();
-```
 
 ### Include Viewi routes
 
